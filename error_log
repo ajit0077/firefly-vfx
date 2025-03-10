@@ -1,0 +1,38 @@
+[29-Mar-2024 20:43:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/srisaist/public_html/contact.php on line 61
+[29-Mar-2024 20:43:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/srisaist/public_html/contact.php:68
+Stack trace:
+#0 /home1/srisaist/public_html/contact.php(68): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'sss')
+#1 {main}
+  thrown in /home1/srisaist/public_html/contact.php on line 68
+[29-Mar-2024 20:45:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/srisaist/public_html/contact.php on line 61
+[29-Mar-2024 20:45:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/srisaist/public_html/contact.php on line 61
+[29-Mar-2024 20:45:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:1) in /home1/srisaist/public_html/contact.php on line 84
+[29-Mar-2024 20:49:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:4) in /home1/srisaist/public_html/contact.php on line 87
+[29-Mar-2024 20:49:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:4) in /home1/srisaist/public_html/contact.php on line 87
+[29-Mar-2024 20:52:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:4) in /home1/srisaist/public_html/contact.php on line 88
+[29-Mar-2024 20:52:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:4) in /home1/srisaist/public_html/contact.php on line 88
+[29-Mar-2024 20:53:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:4) in /home1/srisaist/public_html/contact.php on line 88
+[29-Mar-2024 20:53:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/srisaist/public_html/contact.php:4) in /home1/srisaist/public_html/contact.php on line 89
+[07-Apr-2024 10:32:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RE GOOD AT. 
+ 
+Claim up to $1000 off with CODE: ENES45ZE 
+We Guarantee Result' at line 1 in /home1/srisaist/public_html/contact.php:85
+Stack trace:
+#0 /home1/srisaist/public_html/contact.php(85): mysqli->query('INSERT INTO enq...')
+#1 {main}
+  thrown in /home1/srisaist/public_html/contact.php on line 85
+[24-Aug-2024 13:06:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'srisaist_srisaist'@'localhost' to database 'srisaist_FireFly' in /home1/srisaist/fireflyvfx/contact.php:72
+Stack trace:
+#0 /home1/srisaist/fireflyvfx/contact.php(72): mysqli->__construct('localhost', 'srisaist_srisai...', Object(SensitiveParameterValue), 'srisaist_FireFl...')
+#1 {main}
+  thrown in /home1/srisaist/fireflyvfx/contact.php on line 72
+[01-Oct-2024 06:52:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's to your website so that it appears on Google's first page. Bing, Yahoo, AOL, e' at line 1 in /home1/srisaist/fireflyvfx/contact.php:85
+Stack trace:
+#0 /home1/srisaist/fireflyvfx/contact.php(85): mysqli->query('INSERT INTO enq...')
+#1 {main}
+  thrown in /home1/srisaist/fireflyvfx/contact.php on line 85
+[01-Oct-2024 06:54:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's to your website so that it appears on Google's first page. Bing, Yahoo, AOL, e' at line 1 in /home1/srisaist/fireflyvfx/contact.php:85
+Stack trace:
+#0 /home1/srisaist/fireflyvfx/contact.php(85): mysqli->query('INSERT INTO enq...')
+#1 {main}
+  thrown in /home1/srisaist/fireflyvfx/contact.php on line 85
